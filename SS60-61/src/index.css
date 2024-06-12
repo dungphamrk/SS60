@@ -1,0 +1,59 @@
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+
+}
+.add-task{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-task input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.add-task button {
+  padding: 10px;
+}
+
+.filters{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.filters button {
+  margin: 5px;
+  padding: 10px;
+}
+.edit{
+  color: yellow;
+}
+.delete{
+  color: red;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+}
+
+.actions button {
+  margin: 5px;
+  padding: 10px;
+}
